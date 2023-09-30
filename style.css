@@ -10,6 +10,7 @@
   /* font-family: 'Roboto', sans-serif;  */
 }
 body {
+  background: linear-gradient(to right, rgb(237, 235, 235) 20%, white 100%);
   padding-bottom: 20px;
 }
 a {
@@ -63,7 +64,7 @@ button {
 small {
   background: hsla(37, 100%, 50%, 0.801);
   font-weight: bolder;
-  color: white;
+  color: black;
   width: fit-content;
   padding: 4px;
   border-top-left-radius: 12px;
@@ -178,6 +179,9 @@ hr {
 .img img {
   width: 100%;
 }
+ul {
+  background: rgba(234, 231, 231, 0.704) !important;
+}
 
 /* cards */
 
@@ -192,6 +196,11 @@ hr {
 }
 .cardss .card {
   width: 33%;
+  background: rgb(245, 245, 245);
+  box-shadow: 0 3px 8px 0 grey;
+}
+.cardss .card:hover {
+  box-shadow: 0 5px 12px 0 rgb(23, 23, 23);
 }
 .conversion {
   box-shadow: 0 2px 4px 0 rgba(128, 128, 128, 0.321);
